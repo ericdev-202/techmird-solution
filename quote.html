@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/try.css">
-
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
-    rel="stylesheet">
+    <!-- 
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/web.css">
+    <link rel="stylesheet" href="./assets/css/try.css">
+  
+    <!-- 
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+      rel="stylesheet">
 </head>
 <body>
   <!-- 
@@ -94,107 +96,97 @@
 
     </div>
   </header>
-  <br><br>
 
-    <section class="section features" id="features">
-        <div class="container">
-
-          <h2 class="h2 section-title underline">Our Designed Graphics</h2>
-
-          <ul class="features-list">
-
-            <li>
-              <div class="features-card">
-
-                <div class="icon">
-                  <!-- <ion-icon name="timer-outline"></ion-icon> -->
-                </div>
-
-                <div class="content">
-                  <h3 class="h3 title">Logos</h3>
-
-                  <p class="text">
-                    <img src="./assets/images/techmird3.svg" width="369" height="318" loading="lazy" alt="Features Banner"
-              class="w-100 banner-animation">
-              <img src="./assets/images/logo2.png" width="369" height="318" loading="lazy" alt="Features Banner"
-              class="w-100 banner-animation">
-                  </p>
-                </div>
-
+          <!-- 
+        - #BLOG
+      -->
+<br><br><br><br><br><br>
+<section>
+    <div class="body" id="contact">
+      <div class="container4">
+          <div class="content2">
+            <!-- <div class="left-side">
+              <div class="address details">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="topic">Address</div>
+                <div class="text-one">Ol'kalou Town, Equity building </div>
+                <div class="text-two">3rd floor, Room T23 </div>
               </div>
-            </li>
-
-            <li>
-              <div class="features-card">
-
-                <div class="icon">
-                  <!-- <ion-icon name="color-palette-outline"></ion-icon> -->
-                </div>
-
-                <div class="content">
-                  <h3 class="h3 title">Business Cards</h3>
-
-                  <p class="text">
-                    <img src="./assets/images/Card.png" width="369" height="318" loading="lazy" alt="Features Banner"
-              class="w-100 banner-animation">
-                     
-                  </p>
-                </div>
-
+              <div class="phone details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Phone</div>
+                <div class="text-one"><a href="tel:+254708472693">+254 708 472 693</a></div>
+                <div class="text-two"><a href="tel:+254751101709">+254 751 101 709</a></div>
               </div>
-            </li>
-
-          </ul>
-
-          <figure class="features-banner">
-            <img src="./assets/images/Banner.png" width="369" height="318" loading="lazy" alt="Features Banner"
-              class="w-100 banner-animation">
-          </figure>
-
-          <ul class="features-list">
-
-            <li>
-              <div class="features-card">
-
-                <div class="icon">
-                  <!-- <ion-icon name="code-slash-outline"></ion-icon> -->
-                </div>
-
-                <div class="content">
-                  <h3 class="h3 title">Brochure</h3>
-
-                  <p class="text">
-                    <img src="./assets/images/Brochure1.png" width="369" height="318" loading="lazy" alt="Features Banner"
-              class="w-100 banner-animation">
-                  </p>
-                </div>
-
+              <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one"><a href="mailto:techmirdsolution@gmail.com">techmirdsolution@gmail.com</a></div>
+                <div class="text-two"><a href="mailto:info.techmird@gmail.com">info.techmird@gmail.com</a></div>
               </div>
-            </li>
-
-            <li>
-              <div class="features-card">
-
-                <div class="icon">
-                  <!-- <ion-icon name="rocket-ouxtline"></ion-icon> -->
-                </div>
-
-                <div class="content">
-                  <h3 class="h3 title"></h3>
-
-                  <p class="text">
-                    <img src="./assets/images/Brochure2.png" width="369" height="318" loading="lazy" alt="Features Banner"
-              class="w-100 banner-animation">
-                  </p>
-                </div>
-
+              <div class="email details">
+                <i class="fas fa-building"></i>
+                <div class="topic">Opening Hours</div>
+                <div class="text-one">Mon - Fri: 8am - 5pm</div>
+                <div class="text-two">Sat: 10am - 3pm</div>
+                <div class="text-two">Sun & Holidays: Closed</div>
               </div>
-            </li>
+            </div> -->
+            <div class="right-side">
+              <div class="topic-text">Request a Quotation</div>
+              <p>Please fill and submit the form below. A reply will be sent to the email you provide. 
+                We might also call you via the phone number you will fill, thank you.</p><br>
+            <form onsubmit="sendEmail(); reset(); return false;">
+                <label for="">* Type of business</label>
+              <div class="input-box">
+                <input type="text" placeholder="e.g Hotel Business" id="name" required>
+              </div>
+              <label for="">* Website Purpose</label>
+              <div class="input-box">
+                <select name="" id="">
+                    <option value="">Please Choose a purpose</option>
+                    <option value="">Ecommerce</option>
+                    <option value="">Marketing</option>
+                    <option value="">Management system/portal</option>
+                    <option value="">Other(Specify in Additional information)</option>
+                </select>
+                <!-- <input type="text" placeholder="Enter phonenumber" id="phone" required> -->
+              </div>
+              <label for="">* Website's Budget Range (KShs)</label>
+              <div class="input-box">
+                <select name="" id="">
+                    <option value="">Please Choose Your Range Here</option>
+                    <option value="">15,000-25,000</option>
+                    <option value="">26,000-35,000</option>
+                    <option value="">36,000-50,000</option>
+                    <option value="">55,000-Above</option>
+                </select>
+                <!-- <input type="email" placeholder="Enter your email" id="email" required> -->
+              </div>
+              <label for="">* Additional information</label>
+              <div class="input-box message-box">
+                <textarea placeholder="Write your message here..." id="message"></textarea>
+              </div>
+              <label for="">* Your Phone Number </label>
+              <div class="input-box">
+                <input type="text" placeholder="Enter phonenumber" id="phone" required>
+              </div>
+              <label for="">* Your Email Address </label>
+              <div class="input-box">
+                <input type="email" placeholder="Enter your email" id="email" required>
+              </div>
+              <div class="button">
+                <input type="submit" value="Submit"  style= "font-size: 18px; width: 160px; height: 50px; background-color: hsl(130, 86%, 49%); border-radius: 10px; border-color: rgb(20, 212, 78);">
+              </div>
+            </form>
+          </div>
+          </div>
+      </div>
+      </div>
 
-          </ul>
+  </section>
 
-        </div>
-      </section>
+<br><br><br><br>
   <!-- 
     - #FOOTER
   -->
