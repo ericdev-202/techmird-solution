@@ -234,7 +234,7 @@ body {
   #HEADER
 \*-----------------------------------*/
 
-.header .btn { display: none; }
+/* .header .btn { display: none; } */
 
 .header {
   --color: var(--white);

@@ -234,7 +234,7 @@
     #HEADER
   \*-----------------------------------*/
   
-  .header .btn { display: none; }
+  /* .header .btn { display: none; } */
   
   .header {
     --color: var(--white);
@@ -249,7 +249,7 @@
   }
   
   .header.active {
-    --color: var(--st-patricks-blue);
+    --color: var(--white);
   
     position: fixed;
     background-color: var(--white);
